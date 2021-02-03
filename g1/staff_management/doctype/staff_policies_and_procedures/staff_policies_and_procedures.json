@@ -1,0 +1,202 @@
+{
+ "actions": [],
+ "autoname": "field:staff_member_full_name",
+ "creation": "2020-12-30 21:17:35.574651",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "bd1",
+  "section_break_2",
+  "dt2",
+  "section_break_6",
+  "bd2",
+  "section_break_8",
+  "staff_code_of_conduct",
+  "continuous_improvement_policy_and_procedure",
+  "risk_management_policy_and_procedure",
+  "occupational_health_and_safety_policy_and_procedure",
+  "fire_safety_and_emergency_policy_and_procedure",
+  "incident_management_policy_and_procedure",
+  "records_and_information_management_policy_and_procedure",
+  "privacy_and_confidentiality_policy_and_procedure",
+  "client_rights_and_responsibilities_policy_and_procedure",
+  "feedback_compliments_and_complaints_policy_and_procedure",
+  "protecting_clients_from_harm_policy_and_procedure",
+  "decision_making_and_choice_policy_and_procedure",
+  "positive_behaviour_support_policy_and_procedure",
+  "child_safe_standards_policy_and_procedure",
+  "staff_member_full_name",
+  "date1",
+  "sn2"
+ ],
+ "fields": [
+  {
+   "fieldname": "bd1",
+   "fieldtype": "HTML",
+   "label": "bd1",
+   "options": "<h1>Policies and Procedures</h1>"
+  },
+  {
+   "fieldname": "section_break_2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "dt2",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "section_break_6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bd2",
+   "fieldtype": "HTML",
+   "label": "bd2",
+   "options": "<p>As part of the Hi five community services induction program, you are required to know and understand the\npolicies and procedures that direct your performance. Please complete the following checklist, and return it\nto your supervisor.<br><br>Please note: Other policies, procedures, and documents may be relevant to your role. This is not an\nexhaustive list.</p>"
+  },
+  {
+   "fieldname": "section_break_8",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "staff_code_of_conduct",
+   "fieldtype": "Select",
+   "label": "Staff Code of Conduct",
+   "options": "I understand\nI would like clarification"
+  },
+  {
+   "fieldname": "continuous_improvement_policy_and_procedure",
+   "fieldtype": "Select",
+   "label": "Continuous Improvement Policy and Procedure",
+   "options": "I understand\nI would like clarification"
+  },
+  {
+   "fieldname": "risk_management_policy_and_procedure",
+   "fieldtype": "Select",
+   "label": "Risk Management Policy and Procedure",
+   "options": "I understand\nI would like clarification"
+  },
+  {
+   "fieldname": "occupational_health_and_safety_policy_and_procedure",
+   "fieldtype": "Select",
+   "label": "Occupational Health and Safety Policy and Procedure",
+   "options": "I understand\nI would like clarification"
+  },
+  {
+   "fieldname": "fire_safety_and_emergency_policy_and_procedure",
+   "fieldtype": "Select",
+   "label": "Fire Safety and Emergency Policy and Procedure",
+   "options": "I understand\nI would like clarification"
+  },
+  {
+   "fieldname": "incident_management_policy_and_procedure",
+   "fieldtype": "Select",
+   "label": "Incident Management Policy and Procedure",
+   "options": "I understand\nI would like clarification"
+  },
+  {
+   "fieldname": "records_and_information_management_policy_and_procedure",
+   "fieldtype": "Select",
+   "label": "Records and Information Management Policy and Procedure",
+   "options": "I understand\nI would like clarification"
+  },
+  {
+   "fieldname": "privacy_and_confidentiality_policy_and_procedure",
+   "fieldtype": "Select",
+   "label": "Privacy and Confidentiality Policy and Procedure",
+   "options": "I understand\nI would like clarification"
+  },
+  {
+   "fieldname": "client_rights_and_responsibilities_policy_and_procedure",
+   "fieldtype": "Select",
+   "label": "Client Rights and Responsibilities Policy and Procedure",
+   "options": "I understand\nI would like clarification"
+  },
+  {
+   "fieldname": "feedback_compliments_and_complaints_policy_and_procedure",
+   "fieldtype": "Select",
+   "label": "Feedback, Compliments, and Complaints Policy and Procedure",
+   "options": "I understand\nI would like clarification"
+  },
+  {
+   "fieldname": "protecting_clients_from_harm_policy_and_procedure",
+   "fieldtype": "Select",
+   "label": "Protecting Clients From Harm Policy and Procedure",
+   "options": "I understand\nI would like clarification"
+  },
+  {
+   "fieldname": "decision_making_and_choice_policy_and_procedure",
+   "fieldtype": "Select",
+   "label": "Decision Making and Choice Policy and Procedure",
+   "options": "I understand\nI would like clarification"
+  },
+  {
+   "fieldname": "positive_behaviour_support_policy_and_procedure",
+   "fieldtype": "Select",
+   "label": "Positive Behaviour Support Policy and Procedure",
+   "options": "I understand\nI would like clarification"
+  },
+  {
+   "fieldname": "child_safe_standards_policy_and_procedure",
+   "fieldtype": "Select",
+   "label": "Child Safe Standards Policy and Procedure",
+   "options": "I understand\nI would like clarification"
+  },
+  {
+   "fetch_from": "user.full_name",
+   "fieldname": "staff_member_full_name",
+   "fieldtype": "Link",
+   "label": "Staff Member Full Name",
+   "options": "User",
+   "unique": 1
+  },
+  {
+   "fieldname": "date1",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "sn2",
+   "fieldtype": "Signature",
+   "label": "Signature"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-02-02 10:33:39.080935",
+ "modified_by": "Administrator",
+ "module": "Staff Management",
+ "name": "Staff Policies and Procedures",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "G1 Admin",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

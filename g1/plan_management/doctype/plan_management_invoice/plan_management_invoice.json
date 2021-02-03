@@ -1,0 +1,102 @@
+{
+ "actions": [],
+ "autoname": "format:{participant}-{####}",
+ "creation": "2021-01-22 05:50:34.361755",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "participant",
+  "service_provider",
+  "provider_invoice_date",
+  "invoice_note",
+  "attachments",
+  "on_hold_reason",
+  "approved_by_client",
+  "items",
+  "grand_total",
+  "total_hours"
+ ],
+ "fields": [
+  {
+   "fieldname": "participant",
+   "fieldtype": "Link",
+   "label": "Participant",
+   "options": "Participant"
+  },
+  {
+   "fieldname": "service_provider",
+   "fieldtype": "Select",
+   "label": "Service Provider",
+   "options": "Hi Five Community Services"
+  },
+  {
+   "fieldname": "provider_invoice_date",
+   "fieldtype": "Date",
+   "label": "Invoice Date"
+  },
+  {
+   "fieldname": "invoice_note",
+   "fieldtype": "Small Text",
+   "label": "Invoice Note"
+  },
+  {
+   "fieldname": "attachments",
+   "fieldtype": "Attach",
+   "label": "Attachments"
+  },
+  {
+   "fieldname": "on_hold_reason",
+   "fieldtype": "Data",
+   "label": "On Hold Reason"
+  },
+  {
+   "default": "0",
+   "fieldname": "approved_by_client",
+   "fieldtype": "Check",
+   "label": "Approved By Client"
+  },
+  {
+   "fieldname": "items",
+   "fieldtype": "Table",
+   "options": "PM Invoice"
+  },
+  {
+   "fieldname": "grand_total",
+   "fieldtype": "Currency",
+   "label": "Total",
+   "non_negative": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "total_hours",
+   "fieldtype": "Float",
+   "label": "Total Hours",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-01-30 02:07:56.136155",
+ "modified_by": "Administrator",
+ "module": "Plan Management",
+ "name": "Plan Management Invoice",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

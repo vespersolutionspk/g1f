@@ -1,0 +1,338 @@
+{
+ "actions": [],
+ "autoname": "field:participant",
+ "creation": "2020-12-23 04:09:58.561964",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "hd1",
+  "section_break_2",
+  "date",
+  "column_break_4",
+  "version",
+  "section_break_7",
+  "body1",
+  "body11",
+  "section_break_11",
+  "address",
+  "infohtml",
+  "information_about_me",
+  "family_structureliving_arrangements",
+  "social_community_connections",
+  "safety_at_home",
+  "communication",
+  "allergies_dietary_requirements",
+  "transport_requirements",
+  "medication_support_required",
+  "my_preferences",
+  "disability",
+  "is_this_a_new_care_plan",
+  "an_addendum_to_a_previous_care_plan",
+  "careplan1",
+  "section_break_25",
+  "client_goals",
+  "short_term_goals",
+  "medium_term_goals",
+  "long_term_goals",
+  "services_and_interventions",
+  "section_break_35",
+  "header1",
+  "dateeffective",
+  "care_plan",
+  "section_break_47",
+  "risks",
+  "section_break_49",
+  "parth",
+  "participant",
+  "date_of_birth",
+  "ssign",
+  "column_break_52",
+  "data_53",
+  "cname",
+  "stsign"
+ ],
+ "fields": [
+  {
+   "fieldname": "hd1",
+   "fieldtype": "HTML",
+   "label": "hd1",
+   "options": "<h1>Care Plan</h1>"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "section_break_7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "body1",
+   "fieldtype": "HTML",
+   "label": "body1",
+   "options": "<p><b>Details</b></p>"
+  },
+  {
+   "fieldname": "body11",
+   "fieldtype": "HTML",
+   "label": "body11",
+   "options": "<p>This is my support plan. It explains what is important to me. It\nidentifies my strengths, needs, risks and goals and how I would\nlike to be supported with these.<br><br>It contains sensitive information about me and my life which I\nhave shared with Hi Five Community Services so that I can get\nthe best possible support.<br><br>Please read this before you come to support me. It will help\nyou understand me as a person. If you have any questions you\ncan ask the HFCS team at 1300 492 214.</p>"
+  },
+  {
+   "fieldname": "section_break_11",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fetch_from": "participant.address",
+   "fieldname": "address",
+   "fieldtype": "Small Text",
+   "label": "Address",
+   "read_only": 1
+  },
+  {
+   "fieldname": "infohtml",
+   "fieldtype": "HTML",
+   "label": "infohtml",
+   "options": "<label class=\"control-label\" style=\"padding-right: 0px;\">Information about me<br>(Social interactions, what I am like, what I am good\nat, my personality, strengths and interests, what\nmakes me happy and laugh, my values and beliefs\nincluding spiritual, cultural and religious\npreferences. Information regarding other services\naccessed)</label>"
+  },
+  {
+   "fieldname": "information_about_me",
+   "fieldtype": "Table",
+   "options": "Def Table"
+  },
+  {
+   "fieldname": "family_structureliving_arrangements",
+   "fieldtype": "Table",
+   "label": "Family Structure/Living Arrangements",
+   "options": "Def Table"
+  },
+  {
+   "fieldname": "social_community_connections",
+   "fieldtype": "Table",
+   "label": "Social/ Community Connections",
+   "options": "Def Table"
+  },
+  {
+   "fieldname": "safety_at_home",
+   "fieldtype": "Table",
+   "label": "Safety at Home",
+   "options": "Def Table"
+  },
+  {
+   "fieldname": "communication",
+   "fieldtype": "Table",
+   "label": "Communication",
+   "options": "Def Table"
+  },
+  {
+   "fieldname": "allergies_dietary_requirements",
+   "fieldtype": "Table",
+   "label": "Allergies/ Dietary requirements",
+   "options": "Def Table"
+  },
+  {
+   "fieldname": "transport_requirements",
+   "fieldtype": "Table",
+   "label": "Transport Requirements",
+   "options": "Def Table"
+  },
+  {
+   "fieldname": "medication_support_required",
+   "fieldtype": "Table",
+   "label": "Medication Support Required",
+   "options": "Def Table"
+  },
+  {
+   "fieldname": "my_preferences",
+   "fieldtype": "Table",
+   "label": "My Preferences",
+   "options": "Def Table"
+  },
+  {
+   "fieldname": "disability",
+   "fieldtype": "Select",
+   "label": "Disability",
+   "options": "Acute Brain Injury\nAnxiety\nAquired Brain Injury\nAutism\nBi-polar disorder\nBorderline Personality Disorder\nCerebral Palsy\nChronic Lung Disease\nCollapse of Vertibra\nCraniosynostosis\nDepression\nDevelopmental Delay\nDown Syndrome\nEpilepsy\nHearing Impairment\nHypothyroidism\nIntellectual Disability\nMajor Depressive Disorder\nMental Health Issues\nMonoplegia\nMultiple Sclerosis\nMuscular Dystrophy\nParanoidski Phresnia\nPEG fed\nRheumatoid Arhtritis\nSchizophrenia\nScoliosos\nShashi - Pena Syndrome\nSpinal Injury\nVP Shunt\nVSD"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_this_a_new_care_plan",
+   "fieldtype": "Check",
+   "label": "Is this a new care plan?"
+  },
+  {
+   "default": "0",
+   "fieldname": "an_addendum_to_a_previous_care_plan",
+   "fieldtype": "Check",
+   "label": "An addendum to a previous Care Plan?"
+  },
+  {
+   "fieldname": "careplan1",
+   "fieldtype": "Date",
+   "label": "This Care Plan is valid until: 6 months review required"
+  },
+  {
+   "fieldname": "section_break_25",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "client_goals",
+   "fieldtype": "Heading",
+   "label": "CLIENT GOALS"
+  },
+  {
+   "fieldname": "short_term_goals",
+   "fieldtype": "Table",
+   "label": "Short Term Goals",
+   "options": "Goal"
+  },
+  {
+   "fieldname": "medium_term_goals",
+   "fieldtype": "Table",
+   "label": "Medium Term Goals",
+   "options": "Goal"
+  },
+  {
+   "fieldname": "long_term_goals",
+   "fieldtype": "Table",
+   "label": "Long Term Goals",
+   "options": "Goal"
+  },
+  {
+   "fieldname": "services_and_interventions",
+   "fieldtype": "Table",
+   "label": " SERVICES AND INTERVENTIONS",
+   "options": "Services and Interventions"
+  },
+  {
+   "fieldname": "section_break_35",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "header1",
+   "fieldtype": "HTML",
+   "label": "header1",
+   "options": "<h5>Care Plan Summary</h5>"
+  },
+  {
+   "fieldname": "dateeffective",
+   "fieldtype": "Date",
+   "label": "Date effective:"
+  },
+  {
+   "fieldname": "care_plan",
+   "fieldtype": "Table",
+   "label": "Care Plan",
+   "options": "Care Plan"
+  },
+  {
+   "fieldname": "section_break_47",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "risks",
+   "fieldtype": "Table",
+   "label": "Risks",
+   "options": "Risk"
+  },
+  {
+   "fieldname": "section_break_49",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "parth",
+   "fieldtype": "Heading",
+   "label": "Participant"
+  },
+  {
+   "fieldname": "participant",
+   "fieldtype": "Link",
+   "label": "Participant ",
+   "options": "Participant",
+   "unique": 1
+  },
+  {
+   "fetch_from": "participant.date_of_birth",
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "label": "Date Of Birth",
+   "read_only": 1
+  },
+  {
+   "fieldname": "ssign",
+   "fieldtype": "Signature",
+   "label": "Signature"
+  },
+  {
+   "fieldname": "column_break_52",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "data_53",
+   "fieldtype": "Heading",
+   "label": "Staff"
+  },
+  {
+   "fieldname": "cname",
+   "fieldtype": "Link",
+   "label": "Name",
+   "options": "User"
+  },
+  {
+   "fieldname": "stsign",
+   "fieldtype": "Signature",
+   "label": "Signature"
+  },
+  {
+   "fieldname": "section_break_2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "version",
+   "fieldtype": "Data",
+   "label": "Version"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-02-02 11:52:23.652337",
+ "modified_by": "Administrator",
+ "module": "Participants",
+ "name": "Support Plan",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "G1 Admin",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

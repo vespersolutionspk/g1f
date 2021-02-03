@@ -1,0 +1,41 @@
+{
+ "actions": [],
+ "autoname": "field:goal",
+ "creation": "2020-12-22 20:00:01.363671",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "goal",
+  "review"
+ ],
+ "fields": [
+  {
+   "fieldname": "goal",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Goal",
+   "unique": 1
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "review",
+   "fieldtype": "Text",
+   "in_list_view": 1,
+   "label": "Review"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-01-30 02:01:00.841355",
+ "modified_by": "Administrator",
+ "module": "Participants",
+ "name": "Goal",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

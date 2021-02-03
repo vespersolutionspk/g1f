@@ -1,0 +1,214 @@
+{
+ "actions": [],
+ "autoname": "format:{participant}-{####}",
+ "creation": "2021-01-21 05:18:34.416039",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "bd1",
+  "total_allocation",
+  "total_delivered_f",
+  "total_delivered",
+  "total_delivered_a",
+  "total_remaining",
+  "participant",
+  "reference",
+  "ndis_plan_start_date",
+  "ndis_plan_end_date",
+  "start_date",
+  "end_date",
+  "funding_source",
+  "funding_management",
+  "referral_date",
+  "progress_report_date",
+  "review_submit",
+  "signed_date",
+  "section_break_14",
+  "plan_budget",
+  "section_break_16",
+  "service_provider_category_budget",
+  "section_break_18",
+  "service_support",
+  "section_break_21",
+  "delivered_services"
+ ],
+ "fields": [
+  {
+   "fieldname": "bd1",
+   "fieldtype": "HTML",
+   "label": "bd1",
+   "options": "<h1>Participant Funding</h1>"
+  },
+  {
+   "fieldname": "total_allocation",
+   "fieldtype": "Currency",
+   "label": "Total Allocation",
+   "non_negative": 1,
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "fieldname": "total_delivered_f",
+   "fieldtype": "Currency",
+   "label": "Total Delivered",
+   "non_negative": 1,
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "fieldname": "total_delivered",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "Total Delivered F",
+   "non_negative": 1,
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "fieldname": "total_delivered_a",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "Total Delivered 1",
+   "non_negative": 1,
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "fieldname": "total_remaining",
+   "fieldtype": "Currency",
+   "label": "Total Remaining",
+   "non_negative": 1,
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "fieldname": "participant",
+   "fieldtype": "Link",
+   "label": "Participant",
+   "options": "Participant",
+   "unique": 1
+  },
+  {
+   "fieldname": "reference",
+   "fieldtype": "Data",
+   "label": "Reference"
+  },
+  {
+   "fieldname": "ndis_plan_start_date",
+   "fieldtype": "Date",
+   "label": "NDIS Plan Start Date"
+  },
+  {
+   "fieldname": "ndis_plan_end_date",
+   "fieldtype": "Date",
+   "label": "NDIS Plan End Date"
+  },
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Date",
+   "label": "Start Date"
+  },
+  {
+   "fieldname": "end_date",
+   "fieldtype": "Date",
+   "label": "End Date"
+  },
+  {
+   "fieldname": "funding_source",
+   "fieldtype": "Select",
+   "label": "Funding Source",
+   "options": "Participant\nNDIS"
+  },
+  {
+   "fieldname": "funding_management",
+   "fieldtype": "Select",
+   "label": "Funding Management",
+   "options": "NDIA\nParticipant\nParticipant's Nominee\nRegistered Plan Management Provider"
+  },
+  {
+   "fieldname": "referral_date",
+   "fieldtype": "Date",
+   "label": "Referral Date"
+  },
+  {
+   "fieldname": "progress_report_date",
+   "fieldtype": "Date",
+   "label": "Progress Report Date"
+  },
+  {
+   "fieldname": "review_submit",
+   "fieldtype": "Date",
+   "label": "Review Submit"
+  },
+  {
+   "fieldname": "signed_date",
+   "fieldtype": "Date",
+   "label": "Signed Date"
+  },
+  {
+   "fieldname": "section_break_14",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "plan_budget",
+   "fieldtype": "Table",
+   "label": "Plan Budget",
+   "options": "Plan Budget"
+  },
+  {
+   "fieldname": "section_break_16",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "service_provider_category_budget",
+   "fieldtype": "Table",
+   "label": "Service Provider Category Budget",
+   "options": "Service Provider Category Budget"
+  },
+  {
+   "fieldname": "section_break_18",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "service_support",
+   "fieldtype": "Table",
+   "label": "Service Support",
+   "options": "Service Support"
+  },
+  {
+   "fieldname": "section_break_21",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "delivered_services",
+   "fieldtype": "Table",
+   "label": "Delivered Services",
+   "options": "Delivered Services"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-01-30 02:08:05.725787",
+ "modified_by": "Administrator",
+ "module": "Plan Management",
+ "name": "Participant Funding",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

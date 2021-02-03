@@ -1,0 +1,31 @@
+{
+ "actions": [],
+ "creation": "2020-12-25 01:41:24.851384",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "add_document"
+ ],
+ "fields": [
+  {
+   "fieldname": "add_document",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "Add Document"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-01-30 02:02:52.438278",
+ "modified_by": "Administrator",
+ "module": "Participants",
+ "name": "MISC Document Link",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

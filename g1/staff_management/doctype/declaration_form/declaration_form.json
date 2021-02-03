@@ -1,0 +1,180 @@
+{
+ "actions": [],
+ "autoname": "field:dt1",
+ "creation": "2020-12-30 21:33:04.621758",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "bd1",
+  "bd2",
+  "dt1",
+  "dt2",
+  "bd3",
+  "dtt1",
+  "date",
+  "bd4",
+  "dtt2",
+  "date2",
+  "section_break_11",
+  "db1",
+  "db22",
+  "db2",
+  "db3",
+  "sign1",
+  "date3",
+  "db4",
+  "sign2",
+  "date4",
+  "db5"
+ ],
+ "fields": [
+  {
+   "fieldname": "bd1",
+   "fieldtype": "HTML",
+   "label": "bd1",
+   "options": "<h1>Declaration for workers</h1>"
+  },
+  {
+   "fieldname": "bd2",
+   "fieldtype": "HTML",
+   "label": "bd2",
+   "options": "\n<label class=\"control-label\" style=\"padding-right: 0px;\">I   </label>"
+  },
+  {
+   "fieldname": "dt1",
+   "fieldtype": "Link",
+   "label": " ",
+   "options": "User",
+   "unique": 1
+  },
+  {
+   "fieldname": "dt2",
+   "fieldtype": "HTML",
+   "options": "<label class=\"control-label\" style=\"padding-right: 0px;\">have been informed of and understand the obligations in the NDIS Quality and Safeguards\nCommission Code of conduct for disability service workers and agree to abide by the code of conduct.</label>"
+  },
+  {
+   "fieldname": "bd3",
+   "fieldtype": "HTML",
+   "label": "bd3",
+   "options": "<label class=\"control-label\" style=\"padding-right: 0px;\">Signature of Employee</label>"
+  },
+  {
+   "fieldname": "dtt1",
+   "fieldtype": "Signature"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "bd4",
+   "fieldtype": "HTML",
+   "label": "bd4",
+   "options": "<label class=\"control-label\" style=\"padding-right: 0px;\">Signature of employer or employer representative</label>"
+  },
+  {
+   "fieldname": "dtt2",
+   "fieldtype": "Signature"
+  },
+  {
+   "fieldname": "date2",
+   "fieldtype": "Data",
+   "label": "Date"
+  },
+  {
+   "fieldname": "section_break_11",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "db1",
+   "fieldtype": "HTML",
+   "label": "db1",
+   "options": "\n<label class=\"control-label\" style=\"padding-right: 0px;\">I   </label>"
+  },
+  {
+   "fieldname": "db22",
+   "fieldtype": "Link",
+   "options": "User"
+  },
+  {
+   "fieldname": "db2",
+   "fieldtype": "HTML",
+   "label": "db2",
+   "options": "<label class=\"control-label\" style=\"padding-right: 0px;\">have been informed of and understand the company's Privacy and Confidentiality policy and procedures and\nI agree to follow these policies.</label>"
+  },
+  {
+   "fieldname": "db3",
+   "fieldtype": "HTML",
+   "label": "db3",
+   "options": "<label class=\"control-label\" style=\"padding-right: 0px;\">Signature of Employee</label>"
+  },
+  {
+   "fieldname": "sign1",
+   "fieldtype": "Signature"
+  },
+  {
+   "fieldname": "date3",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "db4",
+   "fieldtype": "HTML",
+   "label": "db4",
+   "options": "<label class=\"control-label\" style=\"padding-right: 0px;\">Signature of employer or employer representative</label>"
+  },
+  {
+   "fieldname": "sign2",
+   "fieldtype": "Signature"
+  },
+  {
+   "fieldname": "date4",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "db5",
+   "fieldtype": "HTML",
+   "label": "db5",
+   "options": "<p><b>ID Card checklist:</b>\n</p><ul>\n<li>I give consent that this ID card is the property of Hi Five Community Services</li>\n<li>I will return it at the end of my employment with Hi Five Community Services</li>\n<li>I will report to my manager or the office immediately in case my ID card is lost/stolen</li>\n</ul><p></p>"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-01-30 12:21:36.225672",
+ "modified_by": "Administrator",
+ "module": "Staff Management",
+ "name": "Declaration Form",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "G1 Admin",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

@@ -1,0 +1,152 @@
+{
+ "actions": [],
+ "autoname": "format:{support_item_number}-{registration_group_name}",
+ "creation": "2021-01-31 07:43:15.820129",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "registration_group_number",
+  "registration_group_name",
+  "support_category_number",
+  "support_category_name",
+  "support_item_number",
+  "support_item_name",
+  "unit",
+  "quote",
+  "pr1",
+  "pr2",
+  "pr3",
+  "pr4",
+  "pr5",
+  "sl1",
+  "sl2",
+  "sl3",
+  "sl4",
+  "sl5"
+ ],
+ "fields": [
+  {
+   "fieldname": "registration_group_number",
+   "fieldtype": "Data",
+   "label": "Registration Group Number"
+  },
+  {
+   "fieldname": "registration_group_name",
+   "fieldtype": "Data",
+   "label": "Registration Group Name"
+  },
+  {
+   "fieldname": "support_category_number",
+   "fieldtype": "Data",
+   "label": "Support Category Number"
+  },
+  {
+   "fieldname": "support_category_name",
+   "fieldtype": "Data",
+   "label": "Support Category Name"
+  },
+  {
+   "fieldname": "support_item_number",
+   "fieldtype": "Data",
+   "label": "Support Item Number"
+  },
+  {
+   "fieldname": "support_item_name",
+   "fieldtype": "Data",
+   "label": "Support Item Name"
+  },
+  {
+   "fieldname": "unit",
+   "fieldtype": "Select",
+   "label": "Unit",
+   "options": "Daily\nEach\nHourly\nMonthly\nWeekly\nYearly"
+  },
+  {
+   "fieldname": "quote",
+   "fieldtype": "Select",
+   "label": "Quote",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "pr1",
+   "fieldtype": "Float",
+   "label": "Price Limit: NT - SATAS-WA(MMM 1-5)"
+  },
+  {
+   "fieldname": "pr2",
+   "fieldtype": "Float",
+   "label": "Price Limit: ACT - NSWQLD - VIC(MMM 1-5)"
+  },
+  {
+   "fieldname": "pr3",
+   "fieldtype": "Float",
+   "label": "Price Limit: NationalNon-Remote(MMM 1-5)"
+  },
+  {
+   "fieldname": "pr4",
+   "fieldtype": "Float",
+   "label": "Price Limit: National Remote(MMM 6)"
+  },
+  {
+   "fieldname": "pr5",
+   "fieldtype": "Float",
+   "label": "Price Limit: National Very Remote(MMM 7)"
+  },
+  {
+   "fieldname": "sl1",
+   "fieldtype": "Select",
+   "label": "Non-Face-to-Face Support Provision",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "sl2",
+   "fieldtype": "Select",
+   "label": "Provider Travel",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "sl3",
+   "fieldtype": "Select",
+   "label": "Short Notice Cancellations.",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "sl4",
+   "fieldtype": "Select",
+   "label": "NDIA Requested Reports",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "sl5",
+   "fieldtype": "Select",
+   "label": "Irregular SIL Supports",
+   "options": "Yes\nNo"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-01-31 08:59:43.711217",
+ "modified_by": "Administrator",
+ "module": "Plan Management",
+ "name": "Plan Management Service",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
